@@ -26,7 +26,6 @@ def detail(row_id):
 			return render_template(template, object=row)
 	abort(404)
 
-
 if __name__ == '__main__':
   #fire up Flask test server
   app.run(debug=True, use_reloader=True)
